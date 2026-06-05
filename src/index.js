@@ -32,7 +32,7 @@ io.on("connection", (socket) => {
   roomHandler(io, socket);
 });
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 7000;
 server.listen(PORT, "0.0.0.0", () => {
   console.log(`Server is listening on all interfaces at port ${PORT}`);
 });
